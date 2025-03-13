@@ -1,0 +1,117 @@
+diff --git a/app/controllers/devices_controller.rb b/app/controllers/devices_controller.rb
+index 3eb9682..b3b5481 100644
+--- a/app/controllers/devices_controller.rb
++++ b/app/controllers/devices_controller.rb
+@@ -1,4 +1,6 @@
+ class DevicesController < ApplicationController
++  include ActionController::Live
++
+   before_action :set_device, only: %i[ show edit update destroy ]
+ 
+   # GET /devices or /devices.json
+@@ -8,7 +10,14 @@ class DevicesController < ApplicationController
+ 
+     respond_to do |format|
+       format.html
+-      format.csv
++      format.csv do
++        send_stream(filename: 'devices.csv') do |stream|
++          stream.write "ip,vendor\n"
++          @devices.find_each do |device|
++            stream.write "#{device.ip},#{device.vendor}\n"
++          end
++        end
++      end
+     end
+   end
+ 
+diff --git a/app/javascript/controllers/camera_controller.js b/app/javascript/controllers/camera_controller.js
+new file mode 100644
+index 0000000..42f5953
+--- /dev/null
++++ b/app/javascript/controllers/camera_controller.js
+@@ -0,0 +1,14 @@
++import { Controller } from "@hotwired/stimulus"
++import { passwordStrength } from 'check-password-strength'
++
++export default class extends Controller {
++  static targets = [ "password", "output" ]
++
++  connect() {
++    this.checkStrength()
++  }
++
++  checkStrength() {
++    this.outputTarget.textContent = passwordStrength(this.passwordTarget.value).value
++  }
++}
+diff --git a/app/models/camera.rb b/app/models/camera.rb
+index 7c3135a..7d43ee2 100644
+--- a/app/models/camera.rb
++++ b/app/models/camera.rb
+@@ -1,4 +1,7 @@
+ class Camera < ApplicationRecord
+   enum status: { offline: 0, online: 1, rtsp_error: 2 }
+   belongs_to :device, counter_cache: :channels
++
++  encrypts :username, :password
++  broadcasts_to :device
+ end
+diff --git a/app/views/cameras/_form.html.erb b/app/views/cameras/_form.html.erb
+index 339fa7e..b2aabfa 100644
+--- a/app/views/cameras/_form.html.erb
++++ b/app/views/cameras/_form.html.erb
+@@ -21,9 +21,10 @@
+     <%= form.text_field :username %>
+   </div>
+ 
+-  <div>
++  <div data-controller='camera'>
+     <%= form.label :password, style: "display: block" %>
+-    <%= form.text_field :password %>
++    <%= form.text_field :password, data: { 'camera-target' => 'password', action: 'input->camera#checkStrength' } %>
++    <span data-camera-target='output'></span>
+   </div>
+ 
+   <div>
+diff --git a/app/views/devices/index.html.erb b/app/views/devices/index.html.erb
+index bba0684..ea4d493 100644
+--- a/app/views/devices/index.html.erb
++++ b/app/views/devices/index.html.erb
+@@ -6,6 +6,8 @@
+ 
+ <div id="devices">
+   <% @devices.each do |device| %>
++    <%= turbo_stream_from device %>
++
+     <%= render device %>
+     <p>
+       <%= link_to "Show this device", device %>
+diff --git a/app/views/devices/show.html.erb b/app/views/devices/show.html.erb
+index 5d6ac79..4b561a9 100644
+--- a/app/views/devices/show.html.erb
++++ b/app/views/devices/show.html.erb
+@@ -1,3 +1,5 @@
++<%= turbo_stream_from @device %>
++
+ <p style="color: green"><%= notice %></p>
+ 
+ <%= render @device %>
+diff --git a/config/credentials.yml.enc b/config/credentials.yml.enc
+index e26ce69..44f43de 100644
+--- a/config/credentials.yml.enc
++++ b/config/credentials.yml.enc
+@@ -1 +1 @@
+-7NUxLB0tJvl885aLqlk7QO0lZaqM/yklgLk+UekaOoDCtIF1rN/2KSD6+FULtlbdGb9ZzAOwfOpdWoAd9wOfD4Ob6fS4Frbdsztni9gvGEGNeUnc5A5uRSQYZs6PrRxQhJG6zOAuU70w9qJrOa1Rciq1QDRuLTtj6i4dwaqTYVn4r2jopVxQKr3wF9zaJ/Vzzpr0QWGoMXIkVzneKEVN4bli5Qtp0oLG0mKZTTamN2xF710N2CF+f2VkZY2cntcmlsBYXXlpRz6g6W/NyL+j4ba5Ap3diml9j0YFWR+HU2NXH6RnCZuSE61EUNX/SwhHTlS7/flpmaXXNXlk/reqGl/aILrphqYERmkcCEh/X2nlwyCxRCuW4e/TamDWEVyGhverXkPJJju8eAVCDnoH10HB1Lr+ZVH/SN0y--/M3H2SS09668SBy2--8DtA/bJVJtgVOUx1aXMALA==
+\ No newline at end of file
++GArkHEiA4y5K6O49pmNYoOFiA5T79ZxuuRs9/36GiNUC1DVssrU5x8qP94VZQM4/fcLHU6iyCn9ApxtCyLKm7JiTIz9LbflTsqLIMQBtvqfZ6Snpcf0MsOvnNJhKhVZJzKE8FT/7VwllVwgaGtSH2iA4VvoS4EXlMQfkxP7PRgalHK/8OaEFUfFZ980P3s5X5HLm6NJmh41H7EMALsT70c/D1cijCJv8VHLvtS1j3CS3Ec4jD2jFhOXbgBgLGICuNVaqm18tY9hh5msVue2fjJE2BJ9vhaoR0dU8G75Q7MeqmvSGraK93mb9vq46EF5q1/X4QrDIq4C76Y/kUMnmZyaQsS8dcWUlrZr+5S6YFlJeMScTOboSgAPFU4K7dx+B4141MF2yeh4Rq6/a/ajzc2uCvTYSsi9TcMOwk9ZaSnT5XGCU2s9/tJabQMsABtheqJPdfXJun6NKPdZZKZTj+i6y3D/T7XsmhtnZ2z9HvaGnqD2O8ltiMs3xEguFAFyOPXVf2HuyFZGKE+RE6kd9cnhlGviWsIZBK7FNGTUgLWD8I8vN2/PDsA17SuhfK5Q80Nnt1jUOv0EwrulK95v31XeC8YJ+DoLwo/o+bUqWlPp75Pwfs45eRx6IA2+txqQUFk+ZvZQ1d+f40YQ4Cto=--SIlfbNjDz0+P/giw--AiwU1G1Axxcie3PHZZIRuw==
+\ No newline at end of file
+diff --git a/config/importmap.rb b/config/importmap.rb
+index bf42cdb..1f36370 100644
+--- a/config/importmap.rb
++++ b/config/importmap.rb
+@@ -7,3 +7,4 @@ pin "@hotwired/stimulus-loading", to: "stimulus-loading.js", preload: true
+ pin_all_from "app/javascript/controllers", under: "controllers"
+ pin "trix"
+ pin "@rails/actiontext", to: "actiontext.js"
++pin "check-password-strength", to: "https://ga.jspm.io/npm:check-password-strength@2.0.3/index.js"

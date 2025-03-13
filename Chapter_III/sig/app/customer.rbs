@@ -1,0 +1,16 @@
+class Customer < ::User
+  @balance: ::Integer
+
+  attr_reader balance: ::Integer
+
+  def initialize: (?::Hash[Symbol, untyped] attrs) -> void
+  def increase_balance: (::Integer sum) -> ::Integer
+
+  # Duck Typing
+  interface _Supporter
+    def years_of_experience: () -> ::Integer
+    def name: () -> ::String
+  end
+
+  def assign_supporter: (_Supporter) -> void
+end

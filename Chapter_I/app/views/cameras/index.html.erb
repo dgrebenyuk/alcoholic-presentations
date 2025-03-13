@@ -1,0 +1,12 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Cameras</h1>
+
+<div id="cameras">
+  <% @cameras.each do |camera| %>
+    <%= render camera %>
+    <p>
+      <%= link_to "Show this camera", camera %>
+    </p>
+  <% end %>
+</div>

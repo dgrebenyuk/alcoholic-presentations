@@ -1,0 +1,11 @@
+<tr id="<%= dom_id camera %>">
+  <td><%= camera.name %></td>
+  <td><%= camera.username %></td>
+  <td><%= camera.password %></td>
+  <td><%= camera.status %></td>
+  <td>
+    <%= link_to 'Edit', edit_camera_path(camera) %>
+    &nbsp;
+    <%= link_to 'Destroy', camera_path(camera), data: {turbo_method: :delete, turbo_confirm: 'Are you sure?' } %>
+  </td>
+</tr>

@@ -1,0 +1,17 @@
+<p style="color: green"><%= notice %></p>
+<div class='text-right'>
+  <%= select_tag :timeline, options_from_collection_for_select(@timelines, 'id', 'name') %>
+</div>
+<h1>Devices</h1>
+
+<div id="devices">
+  <% @devices.each do |device| %>
+    <%= turbo_stream_from device %>
+    <%= render device %>
+    <p>
+      <%= link_to "Show this device", device %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New device", new_device_path %>

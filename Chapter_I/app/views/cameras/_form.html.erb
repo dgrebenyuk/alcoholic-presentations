@@ -1,0 +1,39 @@
+<%= form_with(model: camera) do |form| %>
+  <% if camera.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(camera.errors.count, "error") %> prohibited this camera from being saved:</h2>
+
+      <ul>
+        <% camera.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :name, style: "display: block" %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div>
+    <%= form.label :username, style: "display: block" %>
+    <%= form.text_field :username %>
+  </div>
+
+  <div data-controller='camera'>
+    <%= form.label :password, style: "display: block" %>
+    <%= form.text_field :password, data: { 'camera-target' => 'password', 'action' => 'input->camera#checkStrength' } %>
+    &nbsp;
+    <span  <%= tag.attributes({data: { 'camera-target' => 'output' }}) %>></span>
+  </div>
+
+  <div>
+    <%= form.label :status, style: "display: block" %>
+    <%= form.select :status, options_for_select(Camera.statuses.map {|key, value| [key.titleize, Camera.statuses.key(value)]}, camera.status) %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

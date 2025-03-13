@@ -1,0 +1,26 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.3)
+    matrix (0.4.2)
+    method_source (1.1.0)
+    pry (0.14.2)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    pycall (1.5.2)
+    ruby_linear_regression (0.1.7)
+      matrix
+
+PLATFORMS
+  arm64-darwin-23
+
+DEPENDENCIES
+  pry
+  pycall
+  ruby_linear_regression
+
+RUBY VERSION
+   ruby 3.2.3p157
+
+BUNDLED WITH
+   2.4.22

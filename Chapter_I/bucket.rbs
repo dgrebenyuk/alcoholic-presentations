@@ -1,0 +1,13 @@
+class Bucket
+  PRICES: Hash
+
+  attr_accessor items: Array
+
+  def initialize: () -> void
+
+  def add_item: (item: String) -> (String | Array)
+
+  def +: (other: Bucket) -> Bucket
+
+  def total_sum: () -> Integer
+end

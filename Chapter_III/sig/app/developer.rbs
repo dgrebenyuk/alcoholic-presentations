@@ -1,0 +1,16 @@
+class Developer < ::User
+  ABILITIES: ::Array[::String]
+  @years_of_experience: ::Integer
+
+  attr_accessor years_of_experience: ::Integer
+  attr_accessor customers: ::Array[Customer]
+
+  def initialize: (?::Hash[::Symbol, untyped] attrs) -> void
+  def can_code?: () -> bool
+  def can_fix?: () -> bool
+  def can_support?: () -> bool
+end
+
+class Devops < Developer
+
+end

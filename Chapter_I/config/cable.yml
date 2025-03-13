@@ -1,0 +1,12 @@
+development:
+  adapter: redis
+  url: redis://localhost:6379/1
+  # password: EiT4yaihvai8aVooju7vep8XAet2viomUboecut2
+
+test:
+  adapter: test
+
+production:
+  adapter: redis
+  url: <%= ENV.fetch("REDIS_URL") { "redis://localhost:6379/1" } %>
+  channel_prefix: DiveDemo_production

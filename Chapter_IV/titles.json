@@ -1,0 +1,802 @@
+[
+  {
+    "headline": "why coffee is overrated: just run on anxiety and adrenaline",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "oh great, another groundbreaking study on how water is wet",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "understanding cryptocurrency: trends, risks, and opportunities",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "the ultimate guide to staying comfortable in your comfort zone",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "embrace chaos: a foolproof guide to ignoring all life advice",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "ai technology continues to transform the job market",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "why sleeping 8 hours is overrated: embrace constant exhaustion",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "wow, another reboot of a movie no one asked for!",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "why leaving everything until the last minute makes you a genius",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "how to get in shape by only thinking about working out",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "the magic of diet fads: transforming your wallet, not your waistline",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "medical experts advocate for universal healthcare reforms",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "the role of emotional intelligence in leadership",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "how to make every life decision based on internet memes",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "ai and the creative arts: can machines be truly creative?",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "new ai model detects early signs of alzheimer's disease",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "succeeding in small talk: how to nod without actually listening",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "scientists 'surprised' that climate change is still happening",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "artificial intelligence in education: transforming learning experiences",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "finally, a billionaire who truly cares about the poor (said no one ever)",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "machine learning in climate science: a tool for prediction and mitigation",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "the secret to happiness? just avoid all conflict!",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "new book explores the future of artificial intelligence",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "procrastination power: how to let your future self deal with it",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "finding your passion: a journey of taking personality quizzes until something sticks",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "how to be healthy without actually changing anything",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "building a sustainable supply chain for global markets",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "how to be happy by pretending everything's fine",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "the impact of social media on mental health and well-being",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "the art of small talk: how to ask 'how are you?' without actually caring",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "how to succeed by doing the bare minimum at work",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "the art of appearing busy while doing absolutely nothing",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "global supply chain disruptions impact consumer goods market",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "top 10 ways to procrastinate that feel productive",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "the role of renewable energy in reducing global carbon emissions",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "healthcare experts warn about rising cases of heart disease",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "mental health support in schools: the need for comprehensive policies",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "addressing the gender gap in stem fields",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "economists predict slow recovery following recession",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "building cybersecurity awareness: protecting personal information online",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "new study links sleep deprivation to increased anxiety",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "how to excel in your career by only putting in minimal effort",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "new report reveals shocking news – work is stressful",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "a guide to staying calm by ignoring every deadline",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "groundbreaking research shows that people enjoy being paid more",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "the impact of social media algorithms on political polarization",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "the importance of digital literacy in the modern workforce",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "tech giant promises privacy while collecting all your data",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "the role of ai in predictive analytics for business",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "world leaders meet to discuss climate change solutions",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "why you don't actually need plans: just wing it!",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "why reading books is overrated: watch a recap instead",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "top tips for spending your entire budget in one go",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "cultural diversity in organizations: benefits and best practices",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "the impact of automation on employment: preparing for the future of work",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "exploring the internet of things (iot) in smart home technology",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "why waiting until the last minute actually makes you smarter",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "tech startup claims to disrupt industry, reinvents email",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "why drinking water is overrated: embrace coffee and chaos instead",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "wow! another study confirms that exercise burns calories",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "data security in the age of cloud computing",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "scientists explore potential for life in europa’s subsurface ocean",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "mental health awareness: breaking the stigma in the workplace",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "new productivity hack: just work 24/7 without complaining",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "study shows direct correlation between sleep and productivity",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "self-care tips: just ignore all responsibilities and hope for the best",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "experts confirm: drinking water prevents dehydration",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "why reading instructions is completely optional",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "mom starting to fear son's web series closest thing she will have to grandchild",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "advancements in personalized medicine: how genomics is shaping healthcare",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "revolutionary diet suggests eating less and moving more",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "breaking: people still surprised when politicians lie",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "human rights and the ethics of surveillance technologies",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "why sleep is a waste of time when you could be working",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "why you shouldn't bother with feedback: you're perfect!",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "the ultimate guide to ignoring facts that don't suit you",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "cultural preservation in the digital era: challenges and opportunities",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "decoding climate migration: preparing for future relocation trends",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "electric vehicles gain popularity as charging infrastructure expands",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "stock market sees sharp decline amid economic uncertainty",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "challenges of diversity and inclusion in remote work environments",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "nasa announces plans for manned mission to mars by 2030",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "world bank predicts significant growth in emerging markets",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "local man discovers that paying bills isn’t optional",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "tech industry faces major layoffs amid economic uncertainty",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "new drug shows promise in treating rare neurological disorder",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "the evolution of 5g: what it means for global connectivity",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "how to achieve work-life balance by sacrificing both",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "why coffee is overrated: 10 reasons we don't need energy, happiness, or motivation",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "the impact of telemedicine on access to healthcare",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "space exploration 2.0: human missions beyond the moon",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "the rise of e-commerce and its impact on traditional retail",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "government announces new tax reforms for small businesses",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "how to turn your hobby into a job and immediately hate it",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "sustainable agriculture: solutions for a growing global population",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "augmented reality in education: bridging the learning gap",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "former versace store clerk sues over secret 'black code' for minority shoppers",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "why your cat definitely thinks you're the problem (and other harsh truths)",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "the future of quantum computing: potential and challenges",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "researchers develop biodegradable plastic to reduce pollution",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "smart cities: balancing innovation and privacy concerns",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "this is what 'normal life' looks like in israel",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "artificial intelligence in climate monitoring and control",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "amazing! a-list celebrity shares relatable life struggles",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "sustainable fashion: reducing environmental impact in the textile industry",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "how to succeed by saying yes to absolutely everything",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "data science in healthcare: predictive analytics for better patient outcomes",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "renewable energy technologies: progress and future prospects",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "study shows that staring at screens all day isn’t great for you",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "researchers develop more efficient solar panels",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "how to be a morning person: step one, regret every life choice until 10 am",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "government introduces stricter cybersecurity regulations",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "un warns of water shortages in overpopulated regions",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "new poll finds that people like free stuff",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "how to be inspirational by doing nothing",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "incredible! office meetings still a huge waste of time",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "self-care hack: pretend your problems don't exist",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "breaking news: mondays still the worst day of the week",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "public shocked as politician breaks campaign promise",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "navigating online privacy laws in a connected world",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "the art of avoiding difficult conversations (forever)",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "billionaire ceo explains how poor people just need to work harder",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "remote work: benefits, challenges, and the future workplace",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "social media mastery: how to spend all day scrolling",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "tips for building the perfect routine: start tomorrow (probably)",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "mental health awareness campaign launched nationwide",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "top tips for fake listening: how to nod convincingly in every meeting",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "scientists discover new species in the amazon rainforest",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "why self-improvement is overrated: stay exactly the same",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "study finds that doing nothing all day doesn’t boost productivity",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "addressing the global water crisis: innovations in water conservation",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "top tips for postponing everything (indefinitely)",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "mental health and social media: understanding the impact on adolescents",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "the minimal effort guide to excelling in everything",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "scientists discover potential cure for rare genetic disorder",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "after years of research, scientists confirm that the sky is blue",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "embracing impostor syndrome: why confidence is totally overhyped",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "exploring the ethical implications of ai in criminal justice",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "tech company apologizes for leak, promises to protect data (again)",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "reducing the carbon footprint: green building techniques",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "breakthrough in cancer treatment shows promising results",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "genomic medicine: personalized healthcare for the future",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "why taking breaks is a myth: work until you collapse!",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "a guide to ignoring all advice and hoping it works out",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "climate change adaptation strategies for coastal cities",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "role of artificial intelligence in medical diagnostics",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "big data in healthcare: enhancing patient outcomes through data",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "renewable energy transition: policies and market challenges",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "renewable energy sources outpace fossil fuels for first time",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "how ai is transforming the financial services industry",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "the joy of being constantly connected: never escape an email again!",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "cyber resilience: protecting businesses against evolving threats",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "how to feel productive without accomplishing anything",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "the psychological effects of prolonged screen time on children",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "blockchain applications beyond finance: exploring new frontiers",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "top tips for perfectly ignoring red flags in every relationship",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "the role of public health initiatives in disease prevention",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "world’s best employee quits after getting $10 gift card as bonus",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "tips for perfectly ignoring your entire to-do list",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "financial literacy: preparing youth for economic independence",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "exploring data privacy in the digital age: risks and protections",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "why cats are right and you're the problem",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "reducing food waste in urban areas: strategies and solutions",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "top strategies for ignoring red flags in every relationship",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "breakthrough study links diet to mental health improvements",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "top 10 ways to feel like you're an expert in everything",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "a guide to budgeting: how to avoid buying things you actually need",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "why traveling is overrated: stay home and save your sanity",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "sustainable business practices for long-term success",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "education reform: adapting learning for the digital age",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "study finds that looking at your phone for hours may hurt your eyes",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "healthcare innovations: how technology is transforming patient care",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "why time management is for people with too much time",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "the ultimate guide to getting fit by only thinking about working out",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "the future of urban mobility: electric and autonomous vehicles",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "get rich quick: rely entirely on internet side hustles that probably don't work",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "nasa confirms evidence of water on mars",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "experts shocked: exercising actually good for health!",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "digital transformation in healthcare: benefits and risks",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "the best way to handle conflict: avoid all communication",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "the 'roseanne' revival catches up to our thorny political mood, for better and worse",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "how to reach your dreams by taking every shortcut possible",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "top 10 productivity hacks to help you avoid productivity",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "the impact of renewable energy on global sustainability goals",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "budgeting 101: buy it now, figure out payment later",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "ethical challenges of autonomous weapons in warfare",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "the future of autonomous delivery systems",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "top 10 excuses to use when you're late (again)",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "shocking discovery: rich people prefer not paying taxes",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "forget goals: just drift through life and see what happens",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "study shows that loud noises are, in fact, loud",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "the role of mental health services in university settings",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "why achieving work-life balance just isn't for you",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "mental health stigma: strategies for increasing awareness and support",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "the rise of remote education: benefits and limitations",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "genetic engineering and its potential to combat global hunger",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "how to make life-changing decisions based on horoscopes",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "new report highlights the impact of ai on the job market",
+    "is_sarcastic": 0
+  },
+  {
+    "headline": "how to win arguments by just repeating the same point",
+    "is_sarcastic": 1
+  },
+  {
+    "headline": "scientists baffled: eating junk food daily not ideal for longevity",
+    "is_sarcastic": 1
+  }
+]

@@ -1,0 +1,39 @@
+<div id="<%= dom_id device %>">
+  <p>
+    <strong>Ip:</strong>
+    <%= device.ip %>
+  </p>
+
+  <p>
+    <strong>Netmask:</strong>
+    <%= device.netmask %>
+  </p>
+
+  <p>
+    <strong>Vendor:</strong>
+    <%= device.vendor %>
+  </p>
+
+  <p>
+    <strong>Channels:</strong>
+    <%= device.channels %>
+  </p>
+
+  <p>
+    <strong>Description:</strong>
+    <%= device.description %>
+  </p>
+
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Username</th>
+      <th>Password</th>
+      <th>Status</th>
+      <th></th>
+    </tr>
+
+    <%= render device.cameras %>
+  </table>
+
+</div>
